@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <parameter name="password" value="Aligarh40135*"/>
+  <parameter name="uname" value="monikacreate"/>
+  <parameter name="browsername" value="Chrome"/>
+  <test thread-count="5" name="TestService(failed)" verbose="10">
+    <classes>
+      <class name="Webtesting.InstagramPage">
+        <methods>
+          <include name="Instagramfunctionalitydelete"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+          <include name="Instagramfunctionality"/>
+        </methods>
+      </class> <!-- Webtesting.InstagramPage -->
+    </classes>
+  </test> <!-- TestService(failed) -->
+</suite> <!-- Failed suite [Suite] -->
